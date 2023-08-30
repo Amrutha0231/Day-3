@@ -2,8 +2,8 @@
 Question: Write a program that reads a text file and counts the occurrences of each word. Ignore punctuation and consider case-insensitivity.
 
 Code:
-import string
 
+import string
 def main():
     file_name = input("File: ")
 
@@ -25,7 +25,6 @@ def main():
             print("Word frequency:", word_count)
     except FileNotFoundError:
         print("File not found.")
-
 if __name__ == "__main__":
     main()
 
